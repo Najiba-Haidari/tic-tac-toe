@@ -23,6 +23,10 @@
     background-color: rgb(142, 226, 199);
     /* margin: auto; */
 }
+.box:hover{
+    background-color: rgba(142, 226, 199, 0.5);
+}
+
 header{
     height: 150px;
     padding:50px;
