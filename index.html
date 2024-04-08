@@ -7,7 +7,32 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+
+    <main>
+        <div id="container">
+            <div class="box" data-number="0" data-state-x="X" data-state-o="O">X</div>
+            <div class="box" data-number="1" data-state-x="X" data-state-o="O">X</div>
+            <div class="box" data-number="2" data-state-x="X" data-state-o="O">X</div>
+            <div class="box" data-number="3" data-state-x="X" data-state-o="O">X</div>
+            <div class="box" data-number="4" data-state-x="X" data-state-o="O">X</div>
+            <div class="box" data-number="5" data-state-x="X" data-state-o="O">O</div>
+            <div class="box" data-number="6" data-state-x="X" data-state-o="O">O</div>
+            <div class="box" data-number="7" data-state-x="X" data-state-o="O">O</div>
+            <div class="box" data-number="8" data-state-x="X" data-state-o="O">O</div>
+        </div>
+
+        <div>
+            <div><button class="start-btn">Start the Game</button></div>
+            <div class="player">
+                <h3>Player:</h3>
+                <div id="status">Player Wins/Loose</div>
+            </div>
+            <div></div>
+        </div>
+    </main>
 
     <script src="./scripts.js"></script>
 </body>

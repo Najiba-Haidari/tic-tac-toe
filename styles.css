@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap:5px;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    
+}
+
+.box{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(142, 226, 199);
+    /* margin: auto; */
+}
+header{
+    height: 150px;
+    padding:50px;
+    background-color: rgb(105, 196, 219);
+}
+
+.start-btn{
+    background-color: rgb(74, 184, 231);
+    padding: 10px;
+    border-radius: 10px;
+}
+.start-btn:hover{
+    background-color: rgb(108, 204, 155);
+}
+.player{
+    background-color: rgb(246, 138, 6);
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    margin: 30px auto;
+}
