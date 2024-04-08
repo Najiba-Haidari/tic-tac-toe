@@ -3,6 +3,7 @@
     text-align: center;
     margin: 0;
     padding: 0;
+    
 }
 
 #container{
@@ -25,19 +26,22 @@
 header{
     height: 150px;
     padding:50px;
-    background-color: rgb(105, 196, 219);
+    background-color: rgb(17, 88, 87);
+    color: white;
 }
 
 .start-btn{
     background-color: rgb(74, 184, 231);
-    padding: 10px;
+    padding: 15px;
+    width: 200px;
     border-radius: 10px;
+    font-size: large;
 }
 .start-btn:hover{
     background-color: rgb(108, 204, 155);
 }
 .player{
-    background-color: rgb(246, 138, 6);
+    background-color: rgb(231, 180, 118);
     width: 400px;
     height: 100px;
     padding: 20px;
