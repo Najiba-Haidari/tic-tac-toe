@@ -13,7 +13,7 @@
     gap:5px;
     width: 400px;
     height: 400px;
-    margin: 50px auto;
+    margin: 40px auto;
     
 }
 
@@ -27,6 +27,11 @@
     background-color: rgba(142, 226, 199, 0.5);
 }
 
+#title{
+    padding-top: 10px;
+    font-size: x-large;
+}
+
 header{
     height: 150px;
     padding:50px;
@@ -34,14 +39,14 @@ header{
     color: white;
 }
 
-.start-btn{
+#start-btn{
     background-color: rgb(74, 184, 231);
     padding: 15px;
     width: 200px;
     border-radius: 10px;
     font-size: large;
 }
-.start-btn:hover{
+#start-btn:hover{
     background-color: rgb(108, 204, 155);
 }
 .player{
@@ -51,3 +56,15 @@ header{
     padding: 20px;
     margin: 30px auto;
 }
+.hidden{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
+/* .box[data-state-x]{
+    background-color: red;
+}
+.box[data-state-o]{
+    background-color: aliceblue;
+} */

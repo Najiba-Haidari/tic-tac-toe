@@ -12,7 +12,8 @@
     </header>
 
     <main>
-        <div id="container">
+        <div id="title"><h2>Want to Play the Game? Click the button</h1></div>
+        <div id="container" data-state="hidden" class="hidden">
             <div class="box" data-number="0" data-state-x="X" data-state-o="O"></div>
             <div class="box" data-number="1" data-state-x="X" data-state-o="O"></div>
             <div class="box" data-number="2" data-state-x="X" data-state-o="O"></div>
@@ -25,7 +26,7 @@
         </div>
 
         <div>
-            <div><button class="start-btn">Start the Game</button></div>
+            <div><button id="start-btn">Start the Game</button></div>
             <div class="player">
                 <h3>Player:</h3>
                 <div id="status">Player Wins/Loose</div>
