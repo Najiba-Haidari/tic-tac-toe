@@ -14,13 +14,14 @@
     width: 400px;
     height: 400px;
     margin: 40px auto;
-    
+    text-align: center;
 }
 
 .box{
     padding: 20px;
     text-align: center;
     background-color: rgb(142, 226, 199);
+    font-size: 80px;
     /* margin: auto; */
 }
 .box:hover{
@@ -33,7 +34,7 @@
 }
 
 header{
-    height: 150px;
+    height: 120px;
     padding:50px;
     background-color: rgb(17, 88, 87);
     color: white;
@@ -41,7 +42,7 @@ header{
 
 #start-btn{
     background-color: rgb(74, 184, 231);
-    padding: 15px;
+    padding: 10px;
     width: 200px;
     border-radius: 10px;
     font-size: large;
@@ -49,18 +50,35 @@ header{
 #start-btn:hover{
     background-color: rgb(108, 204, 155);
 }
+
+#reset-btn{
+    margin: 10px;
+    background-color: rgb(74, 184, 231);
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: large;
+}
+#reset-btn:hover{
+    background-color: rgb(108, 204, 155);
+}
+
 .player{
     background-color: rgb(231, 180, 118);
     width: 400px;
     height: 100px;
     padding: 20px;
-    margin: 30px auto;
+    margin: 5px auto;
 }
 .hidden{
     visibility: hidden;
 }
 .visible{
     visibility: visible;
+}
+.disabled{
+    pointer-events: none;
+    opacity: 0.2;
 }
 /* .box[data-state-x]{
     background-color: red;
