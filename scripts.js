@@ -11,7 +11,6 @@ console.log(boxArray)
 // const emptyBoxes = boxArray.filter(box => box.textContent === "");
 // isXwinner = false;
 // isOwinner = false;
-let winner = "";
 
 container.addEventListener("click", xPlays);
 startBtn.addEventListener("click", startGame);
@@ -77,7 +76,6 @@ function checkWinner() {
         boxArray[2].textContent === "O" && boxArray[4].textContent === "O" && boxArray[6].textContent === "O" ||
         boxArray[0].textContent === "O" && boxArray[4].textContent === "O" && boxArray[8].textContent === "O"
     ) {
-        // winner = "O"
         return "O";
     } else if (
         boxArray[0].textContent === "X" && boxArray[1].textContent === "X" && boxArray[2].textContent === "X" ||
@@ -88,10 +86,8 @@ function checkWinner() {
         boxArray[2].textContent === "X" && boxArray[4].textContent === "X" && boxArray[6].textContent === "X" ||
         boxArray[0].textContent === "X" && boxArray[4].textContent === "X" && boxArray[8].textContent === "X"
     ) {
-        // winner = "X"
         return "X";
     } else {
-        // winner = "";
         return ""
     }
 }
