@@ -57,7 +57,8 @@ THEN I can click a button to start a new game, resetting the board and allowing 
 ```
 
 ## Deployed Link
-- Github Repo URL: https://github.com/Najiba-Haidari/tic-tac-toe
+- Github Repo: https://github.com/Najiba-Haidari/tic-tac-toe
+- Github Deployed URL: https://najiba-haidari.github.io/tic-tac-toe/
 
 ## Installation
 * Run/open the index.html in your browser
