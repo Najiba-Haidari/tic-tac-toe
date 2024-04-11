@@ -3,41 +3,54 @@
     text-align: center;
     margin: 0;
     padding: 0;
-    
+    font-family:fantasy;  
+    font-weight: bold;
+    background-color: rgb(181, 175, 175);
+    /* color: white; */
 }
 
 #container{
+    /* border: ; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap:5px;
+    gap:4px;
     width: 400px;
     height: 400px;
     margin: 40px auto;
     text-align: center;
+    
 }
 
 .box{
-    padding: 20px;
+    border:outset;
+    padding: 10px;
     text-align: center;
     background-color: rgb(142, 226, 199);
-    font-size: 80px;
+    font-size: 65px;
+    color: black;
+    box-shadow: 10px 5px 5px rgba(22, 132, 130, 0.4);
     /* margin: auto; */
 }
 .box:hover{
     background-color: rgba(142, 226, 199, 0.5);
+    
 }
 
 #title{
     padding-top: 10px;
-    font-size: x-large;
+    font-size: large;
 }
 
 header{
     height: 120px;
-    padding:50px;
-    background-color: rgb(17, 88, 87);
+    padding:30px;
+    background-color: rgb(22, 132, 130);
     color: white;
+}
+h1{
+    background-color: rgb(22, 132, 130);
+    font-size: 60px; 
 }
 
 #start-btn{
@@ -70,9 +83,13 @@ header{
     padding: 20px;
     margin: 5px auto;
 }
-.hidden{
-    visibility: hidden;
+h3, #status{
+    background-color: rgb(231, 180, 118);
+    color: black;
 }
+/* .hidden{
+    visibility: hidden;
+} */
 .visible{
     visibility: visible;
 }
