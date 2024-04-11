@@ -1,15 +1,13 @@
-# Progressive Web Applications (PWA): Text Editor
+# Tic Tac Toe Game with Javascript
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-The task was to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
-
-To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
+This JavaScript-based Tic Tac Toe game allows a single player to play against the computer. The game is played on a 3x3 grid where players take turns placing their symbol (either 'X' or 'O') in empty cells. The objective is to be the first player to place three of their symbols in a horizontal, vertical, or diagonal row on the grid.
 
 ## Screenshot
-![Social Backend](./client/src/images/screenshot.jpeg)
+![Tic Tac Toe](./images/screenshot.jpeg)
 
 ## Table of Contents 
 
@@ -22,17 +20,17 @@ To build this text editor, you will start with an existing application and imple
 ## User Story
 
 ```md
-AS A developer
-I WANT to create notes or code snippets with or without an internet connection
-SO THAT I can reliably retrieve them for later use
+AS A Player, 
+I want to play a game of Tic Tac Toe against a computer opponent
+So that I can enjoy a challenging single-player gaming experience.
 ```
 
 ## Acceptance Criteria
 
 ```md
-GIVEN a text editor web application
-WHEN I open my application in my editor
-THEN I should see a client server folder structure
+GIVEN a Tic Tac Toe game
+WHEN I open the browser/URL
+THEN I should see a page with a button to start the game
 WHEN I run `npm run start` from the root directory
 THEN I find that my application should start up the backend and serve the client
 WHEN I run the text editor application from my terminal

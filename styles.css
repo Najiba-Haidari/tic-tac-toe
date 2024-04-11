@@ -87,9 +87,9 @@ h3, #status{
     background-color: rgb(231, 180, 118);
     color: black;
 }
-/* .hidden{
+.hidden{
     visibility: hidden;
-} */
+}
 .visible{
     visibility: visible;
 }
