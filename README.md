@@ -8,7 +8,7 @@ This JavaScript-based Tic Tac Toe game allows a single player to play against th
 
 ## Screenshot
 <p align="center">
-  <img src="./images/screenshot.jpg" alt="Tic Tac Toe" />
+  <img src="./images/screenshot.jpg" alt="Tic Tac Toe" width="500" height="400" />
 </p>
 
 ## Table of Contents 
